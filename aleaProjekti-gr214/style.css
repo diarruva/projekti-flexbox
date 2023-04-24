@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    /* auto- vendos scrollbar kurdo qe eshte e nevojshme */
+    overflow: auto;
+}
+
+header{
+    width: 90vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+nav{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-list{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.nav-list .nav-list-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.main_quote{
+    background-color: #D2C7F0;
+    width: 40%;
+    /* line-height: 66.43px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.intro_quote{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66.43px;
+}
+
+.intro_quote{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66.43px;
+}
+
+.info_quote{
+    font-size: 20px;
+    font-weight: 600;
+     line-height: 31.58px; 
+}
+
+.btn{
+    font-size: 21px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.btn_products{
+    background-color: black;
+    color: white;
+}
+
+.second_quote{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.mission_quote{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.mission_quote span{
+    color: #D2C7F0 ;
+}
+.description{
+    width: 60%;
+}
+
+.description p{
+    font-size: 20px;
+    line-height: 31.58px;
+    display: flex;
+    font-weight: 700;
+}

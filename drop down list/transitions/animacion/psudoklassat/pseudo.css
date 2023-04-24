@@ -1,0 +1,52 @@
+/* linku i pavizituar */
+
+/* a:link{
+    color: #FF0000;
+} */
+
+/* linku  vizituar */
+/* a:visited{
+    color: #00ff00;
+} */
+
+/* kur me maus jemi mbi element */
+
+/* a:hover{
+    color: black;
+} */
+
+/* a:active{
+    color: #0000ff;
+} */
+
+/* p::first-line{ 
+    background-color: red;
+} */
+
+
+/* pseudo elementet */
+/* p::before{
+    content: "before";
+    background-color: red;
+}
+
+p::after{
+    content: "after";
+    background-color: blue;
+} */
+
+
+.description::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    display: inline-block;
+}
+.description::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(27, 4 , 4);
+    display: inline-block;
+}

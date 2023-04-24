@@ -1,0 +1,10 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(240, 153, 153);
+    /*  transform: scale(2,3); */
+    /* transform: rotate(120deg) translate(100px 100px) ; */
+    /* transform: skew(100deg); */
+    /* transform: matrix(scaleX(10px),skewY(50deg),skewX(50deg),scaleY(10px),translateX(20px),translateY(20px)); */
+    transform: rotateX('50deg'),rotateY('50deg'),rotateZ('50deg')  ;
+}

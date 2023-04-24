@@ -1,0 +1,12 @@
+/* img{
+     clip-path: circle(20%); 
+    clip-path: inset(20px 15px 20px round 15px);
+    clip-path: ellipse(100px 80px at center);
+    clip-path: polygon(100% 0, 0 100%, 58% 99%);
+
+} */
+
+.container{
+    width: 500px;
+    height: 500px;
+}

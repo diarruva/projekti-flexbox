@@ -1,0 +1,101 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+     transition: width 2s, height 4s; 
+    transition-delay: 2s;
+    transition-duration: 2s;
+}
+div:hover{
+    width: 200px;
+    height: 600px;
+} */
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color:lightblue;
+    color: black;
+    transition: width 2s;
+} */
+
+/* .ease{
+    transition-timing-function: ease;}
+.linear{
+    transition-timing-function: linear;}
+.easein{
+    transition-timing-function: ease-in;}
+.easeout{
+    transition-timing-function: ease-out;}
+.easeinout{
+    transition-timing-function: ease-in-out;}
+
+.box:hover{
+    width: 400px;
+} */
+
+/* .box:hover{
+    width: 100px;
+}*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+  
+}
+
+.red{
+    background-color: red;
+    transform-origin: top left;
+    transition: 1s;
+}
+.yellow{
+    background-color: yellow;
+    transform-origin: bottom left;
+    transition: 1s;
+}
+.blue{
+    background-color: blue;
+    transform-origin: top right;
+    transition: 1s;
+}
+.green{
+    background-color: green;
+    transform-origin: bottom right;
+    transition: 1s;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.parent{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{ 
+    position: absolute;
+    font-size: 100px;
+    z-index: -1;
+
+}
+
+.parent:hover .red,
+.parent:hover .green{
+ transform: rotate(90deg);
+}
+
+.parent:hover .blue,
+.parent:hover .yellow{
+    transform: rotate(-90deg);
+}

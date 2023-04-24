@@ -1,0 +1,18 @@
+/* div{
+    width: 250px;
+    height: 250px;
+     background-image: linear-gradient(to right, red, green, blue); 
+    background-image: radial-gradient(red,blue,green);
+} */
+
+div{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(90deg, 
+    rgba(2,3,61, 0.8)0%,
+    rgba(0,168,255,0.8)100%
+    ),
+
+    url(https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: contain ;
+}

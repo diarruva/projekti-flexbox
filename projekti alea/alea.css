@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif; 
+    height: 100vh;
+    overflow: auto;
+}
+
+header{
+    width: 90vh;
+    border: 1px solid  red ;
+    margin: 0 auto;
+}
+nav{
+    border: 1px solid blue;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
